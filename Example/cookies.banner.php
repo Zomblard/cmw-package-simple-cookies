@@ -2,7 +2,7 @@
 
 use CMW\Manager\Env\EnvManager;
 use CMW\Manager\Security\SecurityManager;
-use CMW\Model\Simplecookies\SimpleCookiesModel;
+use CMW\Model\SimpleCookies\SimpleCookiesModel;
 
 //Import the SimpleCookies settings
 $settings = SimpleCookiesModel::getInstance()->getSettings();

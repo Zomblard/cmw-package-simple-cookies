@@ -1,8 +1,8 @@
 <?php
 
-namespace CMW\Controller\Simplecookies\Api;
+namespace CMW\Controller\SimpleCookies\Api;
 
-use CMW\Controller\Simplecookies\SimpleCookiesController;
+use CMW\Controller\SimpleCookies\SimpleCookiesController;
 use CMW\Manager\Package\AbstractController;
 use CMW\Manager\Router\Link;
 use CMW\Utils\Redirect;

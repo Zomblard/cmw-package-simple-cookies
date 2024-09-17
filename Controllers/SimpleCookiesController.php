@@ -1,6 +1,6 @@
 <?php
 
-namespace CMW\Controller\Simplecookies;
+namespace CMW\Controller\SimpleCookies;
 
 use CMW\Manager\Env\EnvManager;
 use CMW\Manager\Package\AbstractController;

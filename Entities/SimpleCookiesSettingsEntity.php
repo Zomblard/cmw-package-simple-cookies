@@ -1,6 +1,6 @@
 <?php
 
-namespace CMW\Entity\Simplecookies;
+namespace CMW\Entity\SimpleCookies;
 
 use JsonException;
 use RuntimeException;

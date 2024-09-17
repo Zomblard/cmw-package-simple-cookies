@@ -1,11 +1,11 @@
 <?php
 
-namespace CMW\Controller\Simplecookies\Public;
+namespace CMW\Controller\SimpleCookies\Public;
 
 use CMW\Manager\Package\AbstractController;
 use CMW\Manager\Router\Link;
 use CMW\Manager\Views\View;
-use CMW\Model\Simplecookies\SimpleCookiesModel;
+use CMW\Model\SimpleCookies\SimpleCookiesModel;
 use CMW\Utils\Redirect;
 use function error_log;
 

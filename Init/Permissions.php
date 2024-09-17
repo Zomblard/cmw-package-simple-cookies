@@ -1,6 +1,6 @@
 <?php
 
-namespace CMW\Permissions\Simplecookies;
+namespace CMW\Permissions\SimpleCookies;
 
 use CMW\Manager\Lang\LangManager;
 use CMW\Manager\Permission\IPermissionInit;

@@ -1,6 +1,6 @@
 <?php
 
-namespace CMW\Package\Simplecookies;
+namespace CMW\Package\SimpleCookies;
 
 use CMW\Manager\Package\IPackageConfig;
 use CMW\Manager\Package\PackageMenuType;
@@ -9,7 +9,7 @@ class Package implements IPackageConfig
 {
     public function name(): string
     {
-        return 'Simplecookies';
+        return 'SimpleCookies';
     }
 
     public function version(): string

@@ -1,8 +1,8 @@
 <?php
 
-namespace CMW\Model\Simplecookies;
+namespace CMW\Model\SimpleCookies;
 
-use CMW\Entity\Simplecookies\SimpleCookiesSettingsEntity;
+use CMW\Entity\SimpleCookies\SimpleCookiesSettingsEntity;
 use CMW\Manager\Cache\SimpleCacheManager;
 use CMW\Manager\Database\DatabaseManager;
 use CMW\Manager\Package\AbstractModel;
@@ -42,7 +42,7 @@ class SimpleCookiesModel extends AbstractModel
      * @param string $bannerTitle
      * @param string $bannerText
      * @param string $pageContent
-     * @return \CMW\Entity\Simplecookies\SimpleCookiesSettingsEntity|null
+     * @return \CMW\Entity\SimpleCookies\SimpleCookiesSettingsEntity|null
      */
     public function updateSettings(string $bannerTitle, string $bannerText, string $pageContent): ?SimpleCookiesSettingsEntity
     {

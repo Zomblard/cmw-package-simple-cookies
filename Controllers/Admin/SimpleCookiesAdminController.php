@@ -1,6 +1,6 @@
 <?php
 
-namespace CMW\Controller\Simplecookies\Admin;
+namespace CMW\Controller\SimpleCookies\Admin;
 
 use CMW\Controller\users\UsersController;
 use CMW\Manager\Cache\SimpleCacheManager;
@@ -11,7 +11,7 @@ use CMW\Manager\Lang\LangManager;
 use CMW\Manager\Package\AbstractController;
 use CMW\Manager\Router\Link;
 use CMW\Manager\Views\View;
-use CMW\Model\Simplecookies\SimpleCookiesModel;
+use CMW\Model\SimpleCookies\SimpleCookiesModel;
 use CMW\Utils\Redirect;
 use JetBrains\PhpStorm\NoReturn;
 use function is_null;
@@ -31,7 +31,7 @@ class SimpleCookiesAdminController extends AbstractController
 
         $settings = SimpleCookiesModel::getInstance()->getSettings();
 
-        View::createAdminView('Simplecookies', 'manage')
+        View::createAdminView('SimpleCookies', 'manage')
             ->addScriptBefore('Admin/Resources/Vendors/Tinymce/tinymce.min.js',
                 'Admin/Resources/Vendors/Tinymce/Config/full.js')
             ->addVariableList(['settings' => $settings])

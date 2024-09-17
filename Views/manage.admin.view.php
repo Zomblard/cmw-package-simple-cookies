@@ -3,38 +3,38 @@
 use CMW\Manager\Lang\LangManager;
 use CMW\Manager\Security\SecurityManager;
 
-/* @var \CMW\Entity\Simplecookies\SimpleCookiesSettingsEntity $settings */
+/* @var \CMW\Entity\SimpleCookies\SimpleCookiesSettingsEntity $settings */
 
-$title = LangManager::translate('simplecookies.manage.title');
-$description = LangManager::translate('simplecookies.manage.description');
+$title = LangManager::translate('SimpleCookies.manage.title');
+$description = LangManager::translate('SimpleCookies.manage.description');
 ?>
 <h3>
     <i class="fa-solid fa-cookie"></i>
-    <?= LangManager::translate('simplecookies.manage.title') ?>
+    <?= LangManager::translate('SimpleCookies.manage.title') ?>
 </h3>
 
 <form action="" method="post">
     <?php (new SecurityManager())->insertHiddenToken() ?>
     <div class="card mt-3">
-        <h4><?= LangManager::translate('simplecookies.manage.banner') ?></h4>
+        <h4><?= LangManager::translate('SimpleCookies.manage.banner') ?></h4>
         <div>
             <label for="banner_title">
-                <?= LangManager::translate('simplecookies.manage.bannerTitle') ?>
+                <?= LangManager::translate('SimpleCookies.manage.bannerTitle') ?>
             </label>
             <input type="text" id="banner_title" name="banner_title" required class="input-sm"
-                   placeholder="<?= LangManager::translate('simplecookies.manage.bannerTitlePlaceholder') ?>"
+                   placeholder="<?= LangManager::translate('SimpleCookies.manage.bannerTitlePlaceholder') ?>"
                    value="<?= $settings->getBannerTitle() ?>">
         </div>
         <div>
             <label for="banner_text">
-                <?= LangManager::translate('simplecookies.manage.bannerText') ?>
+                <?= LangManager::translate('SimpleCookies.manage.bannerText') ?>
             </label>
             <textarea id="banner_text" class="tinymce" name="banner_text"
                       data-tiny-height="100"><?= $settings->getBannerText() ?></textarea>
         </div>
     </div>
     <div class="mt-3 card">
-        <h4><?= LangManager::translate('simplecookies.manage.cookiesPage') ?></h4>
+        <h4><?= LangManager::translate('SimpleCookies.manage.cookiesPage') ?></h4>
         <label for="page_content"></label>
         <textarea id="page_content" class="tinymce" name="page_content"
                   data-tiny-height="700"><?= $settings->getPageContent() ?></textarea>
