@@ -36,7 +36,6 @@ class Package implements IPackageConfig
     {
         return [
             new PackageMenuType(
-                lang: 'fr',
                 icon: 'fas fa-cookie',
                 title: 'Simple Cookies',
                 url: 'cookies',
