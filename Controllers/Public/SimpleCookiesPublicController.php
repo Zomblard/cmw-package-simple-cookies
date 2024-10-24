@@ -29,9 +29,9 @@ class SimpleCookiesPublicController extends AbstractController
 
         $content = $settings->getPageContent();
 
-        $view = new View('SimpleCookies', 'main');
-        $view->addVariableList(['content' => $content]);
-        $view->view();
+        View::createPublicView('SimpleCookies', 'main')
+            ->addVariableList(['content' => $content])
+            ->view();
     }
 
 
