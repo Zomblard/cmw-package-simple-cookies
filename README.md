@@ -6,7 +6,7 @@ your CraftMyWebsite CMS website.
 ## Installation
 
 Download the package on the CraftMyWebsite
-marketplace => [Simple Cookies](https://craftmywebsite.com/marketplace/package/simplecookies)
+marketplace => [Simple Cookies](https://craftmywebsite.com/marketplace/details/simplecookies)
 
 ## How to use
 
