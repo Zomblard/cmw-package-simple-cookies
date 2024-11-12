@@ -14,7 +14,7 @@ $description = LangManager::translate('SimpleCookies.manage.description');
 </h3>
 
 <form action="" method="post">
-    <?php (new SecurityManager())->insertHiddenToken() ?>
+    <?php SecurityManager::getInstance()->insertHiddenToken() ?>
     <div class="card mt-3">
         <h4><?= LangManager::translate('SimpleCookies.manage.banner') ?></h4>
         <div>
