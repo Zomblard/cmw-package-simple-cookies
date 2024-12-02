@@ -39,8 +39,7 @@ class Package implements IPackageConfig
                 icon: 'fas fa-cookie',
                 title: 'Simple Cookies',
                 url: 'cookies',
-                permission: 'cookies.manage',
-                subMenus: []
+                permission: 'cookies.manage'
             ),
         ];
     }
