@@ -134,4 +134,15 @@ class SimpleCookiesController extends AbstractController
             }
         }
     }
+
+    /**
+     * @return callable
+     * @desc Return a callable to show the cookie consent banner.
+     */
+    public function showCookieConsentCallable(): callable
+    {
+        return function () {
+            $this->showCookieConsent();
+        };
+    }
 }
