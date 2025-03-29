@@ -13,7 +13,7 @@ class Permissions implements IPermissionInit
         return [
             new PermissionInitType(
                 code: 'simplecookies.manage',
-                description: LangManager::translate('simplecookies.permissions.manage'),
+                description: LangManager::translate('SimpleCookies.permissions.manage'),
             ),
         ];
     }

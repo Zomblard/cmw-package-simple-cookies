@@ -53,7 +53,7 @@ class SimpleCookiesAdminController extends AbstractController
             Flash::send(
                 Alert::ERROR,
                 LangManager::translate('core.toaster.error'),
-                LangManager::translate('simplecookies.errors.update'),
+                LangManager::translate('SimpleCookies.errors.update'),
             );
 
             Redirect::redirectPreviousRoute();
